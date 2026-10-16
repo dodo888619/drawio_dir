@@ -1,0 +1,152 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="DDJ1oYpXvr9Nv1UfnnGR">
+    <mxGraphModel dx="1945" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-5" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-7" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="预约钱包支付成功(定时任务)" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-4" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="预约钱包支付落单" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-21" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="预约钱包支付正式落单" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="预约钱包支付撤单" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-8" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="正式钱包支付撤单" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;钱包特殊交易冻结调增&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="110" x="120" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(18, 18, 18); background-color: rgb(211, 213, 214);&quot;&gt;钱包特殊交易冻结调减&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="570" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(18, 18, 18); background-color: rgb(211, 213, 214);&quot;&gt;钱包特殊交易冻结调减&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="380" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-22" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-20" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="正式钱包支付落单" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="私募基金的今日在途调减&lt;div&gt;钱包基金减去特殊冻结份额&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="380" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="钱包基金加特殊冻结，要买的那只基金加今日在途" vertex="1">
+          <mxGeometry height="60" width="150" x="400" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-25" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;私募钱包支付&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="90" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-29" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="私募预约赎回落单" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-31" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-42" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="预约赎回转正式单" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="按申请份额调增被赎回私募基金的 &lt;code class=&quot;ui-markdown__inline-code ui-rtu7ee ui-1i9v5mb ui-1hhlpkd ui-6lrnw6 ui-115g5cq ui-odjx36 ui-1wd3ewq ui-hayvgc ui-eb7xqv ui-15bjb6t ui-1lldw8n ui-1mzt3pk&quot;&gt;SPECIALFROZE&lt;/code&gt;" vertex="1">
+          <mxGeometry height="85" width="205" x="372.5" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-33" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="赎回正式下单" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-35" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-38" connectable="0" parent="ULO6JYXnOsHa1oAJ5ywi-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="赎回至卡" vertex="1">
+          <mxGeometry relative="1" x="0.2207" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-37" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-39" connectable="0" parent="ULO6JYXnOsHa1oAJ5ywi-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="赎回至宝" vertex="1">
+          <mxGeometry relative="1" x="0.3019" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-32" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;roundedPerimeter=1;" value="赎回方式" vertex="1">
+          <mxGeometry height="80" width="80" x="260" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-46" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-34" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="赎回至卡" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-48" edge="1" parent="1" source="ULO6JYXnOsHa1oAJ5ywi-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ULO6JYXnOsHa1oAJ5ywi-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-36" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="赎回至宝" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(0, 0, 255); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;按“申请份额”调减对应份额数据中“特殊交易冻结”&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="205" x="390" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-41" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="预约赎回撤单" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(205, 205, 255); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(18, 18, 18); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;按“申请份额”调减对应份额数据中的“特殊交易冻结”&lt;/span&gt;" vertex="1">
+          <mxGeometry height="73" width="150" x="-70" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="按申请份额调增被赎回基金的今日交易冻结 &lt;code class=&quot;ui-markdown__inline-code ui-rtu7ee ui-1i9v5mb ui-1hhlpkd ui-6lrnw6 ui-115g5cq ui-odjx36 ui-1wd3ewq ui-hayvgc ui-eb7xqv ui-15bjb6t ui-1lldw8n ui-1mzt3pk&quot;&gt;TRDFROZEN&lt;/code&gt;" vertex="1">
+          <mxGeometry height="60" width="156" x="190" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-45" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="赎回至卡撤单" vertex="1">
+          <mxGeometry height="60" width="120" x="-130" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-47" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="赎回至宝撤单" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="按申请份额调增被赎回基金的今日交易冻结 &lt;code class=&quot;ui-markdown__inline-code ui-rtu7ee ui-1i9v5mb ui-1hhlpkd ui-6lrnw6 ui-115g5cq ui-odjx36 ui-1wd3ewq ui-hayvgc ui-eb7xqv ui-15bjb6t ui-1lldw8n ui-1mzt3pk&quot;&gt;TRDFROZEN&lt;/code&gt;" vertex="1">
+          <mxGeometry height="60" width="156" x="414" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="宝基金份额不变动" vertex="1">
+          <mxGeometry height="30" width="120" x="415" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="正式赎回至宝撤单时，只把被赎回私募基金的今日交易冻结按申请份额减回去。宝基金的份额表不动" vertex="1">
+          <mxGeometry height="100" width="150" x="650" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="正式赎回至卡撤单时，按申请份额把私募基金的今日交易冻结减回去。份额更新和赎回至宝撤单是同一句" vertex="1">
+          <mxGeometry height="60" width="156" x="-120" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="ULO6JYXnOsHa1oAJ5ywi-54" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;私募预约赎回&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="10" y="900" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
