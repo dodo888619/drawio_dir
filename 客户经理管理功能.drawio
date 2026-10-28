@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="rWj-zbDo9X5upqeRp7hQ">
-    <mxGraphModel dx="2142" dy="2151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1759" dy="1865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,6 +17,14 @@
         </mxCell>
         <mxCell id="RuAodhJl70UKthFQSGWw-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="客户经理" vertex="1">
           <mxGeometry height="30" width="60" x="384" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="e2RPUPwxzn9uiRXZ-m3v-1" edge="1" parent="1" source="RuAodhJl70UKthFQSGWw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="RuAodhJl70UKthFQSGWw-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2RPUPwxzn9uiRXZ-m3v-2" connectable="0" parent="e2RPUPwxzn9uiRXZ-m3v-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="&lt;div style=&quot;background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(199, 125, 187);&quot;&gt;invite_user_id:&lt;/span&gt;sListID&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.181" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RuAodhJl70UKthFQSGWw-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span style=&quot;color: rgb(206, 145, 120); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; font-weight: 700; text-align: left; background-color: rgb(240, 240, 240);&quot;&gt;lt_manager_group&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#915d47&quot; face=&quot;-apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(31, 31, 31);&quot;&gt;&lt;b&gt;pk:id&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="250" y="360" as="geometry" />
@@ -161,6 +169,18 @@
         </mxCell>
         <mxCell id="RuAodhJl70UKthFQSGWw-38" edge="1" parent="1" source="RuAodhJl70UKthFQSGWw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="RuAodhJl70UKthFQSGWw-27">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2RPUPwxzn9uiRXZ-m3v-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="就是邀请人的id" vertex="1">
+          <mxGeometry height="30" width="110" x="460" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="e2RPUPwxzn9uiRXZ-m3v-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="就是被邀请人" vertex="1">
+          <mxGeometry height="30" width="100" x="160" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="e2RPUPwxzn9uiRXZ-m3v-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;invite_user_id 就是邀请人id;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;user_id 是被邀请人id&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="e2RPUPwxzn9uiRXZ-m3v-6" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#7a7e85;&quot;&gt;-- &lt;/span&gt;&lt;span style=&quot;color:#7a7e85;font-family:&#39;Menlo-Regular&#39;,monospace;&quot;&gt;客户经理&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;select &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;from &lt;/span&gt;ltfund.lt_manager t &lt;span style=&quot;color:#cf8e6d;&quot;&gt;where &lt;/span&gt;t.&lt;span style=&quot;color:#c77dbb;&quot;&gt;id &lt;/span&gt;=&lt;span style=&quot;color:#6aab73;&quot;&gt;&#39;19&#39;&lt;/span&gt;;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#7a7e85;&quot;&gt;-- &lt;/span&gt;&lt;span style=&quot;color:#7a7e85;font-family:&#39;Menlo-Regular&#39;,monospace;&quot;&gt;邀请人&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;select &lt;/span&gt;t.* &lt;span style=&quot;color:#cf8e6d;&quot;&gt;from &lt;/span&gt;ltfund.lt_manager_group t &lt;span style=&quot;color:#cf8e6d;&quot;&gt;where &lt;/span&gt;t.&lt;span style=&quot;color:#c77dbb;&quot;&gt;manager_id &lt;/span&gt;=&lt;span style=&quot;color:#6aab73;&quot;&gt;&#39;19&#39; &lt;/span&gt;;&lt;br&gt;&lt;span style=&quot;color:#7a7e85;&quot;&gt;-- &lt;/span&gt;&lt;span style=&quot;color:#7a7e85;font-family:&#39;Menlo-Regular&#39;,monospace;&quot;&gt;被邀请人&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;select &lt;/span&gt;t.* &lt;span style=&quot;color:#cf8e6d;&quot;&gt;from &lt;/span&gt;ltfund.lt_manager_customer t &lt;span style=&quot;color:#cf8e6d;&quot;&gt;where &lt;/span&gt;t.&lt;span style=&quot;color:#c77dbb;&quot;&gt;group_id &lt;/span&gt;=&lt;span style=&quot;color:#6aab73;&quot;&gt;&#39;18&#39;&lt;/span&gt;;&lt;br&gt;&lt;span style=&quot;color:#7a7e85;&quot;&gt;-- &lt;/span&gt;&lt;span style=&quot;color:#7a7e85;font-family:&#39;Menlo-Regular&#39;,monospace;&quot;&gt;个人信息&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;select &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;from &lt;/span&gt;ltfund.lt_user t &lt;span style=&quot;color:#cf8e6d;&quot;&gt;where &lt;/span&gt;t.&lt;span style=&quot;color:#c77dbb;&quot;&gt;sListID &lt;/span&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;in &lt;/span&gt;(&lt;span style=&quot;color:#cf8e6d;&quot;&gt;select &lt;/span&gt;t.&lt;span style=&quot;color:#c77dbb;&quot;&gt;user_id &lt;/span&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;from &lt;/span&gt;ltfund.lt_manager_customer t &lt;span style=&quot;color:#cf8e6d;&quot;&gt;where &lt;/span&gt;t.&lt;span style=&quot;color:#c77dbb;&quot;&gt;manager_id &lt;/span&gt;=&lt;span style=&quot;color:#6aab73;&quot;&gt;&#39;19&#39; &lt;/span&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;and &lt;/span&gt;t.&lt;span style=&quot;color:#c77dbb;&quot;&gt;group_id &lt;/span&gt;=&lt;span style=&quot;color:#6aab73;&quot;&gt;&#39;18&#39;&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;select &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;* &lt;/span&gt;&lt;span style=&quot;color:#cf8e6d;&quot;&gt;from &lt;/span&gt;ltfund.lt_user t &lt;span style=&quot;color:#cf8e6d;&quot;&gt;where &lt;/span&gt;t.&lt;span style=&quot;color:#c77dbb;&quot;&gt;invite_user_id &lt;/span&gt;=&lt;span style=&quot;color:#6aab73;&quot;&gt;&#39;1026f06c138e403e9ace55ad909ddf0a&#39;&lt;/span&gt;;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="1180" x="70" y="1160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
