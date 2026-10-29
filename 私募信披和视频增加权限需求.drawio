@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="1iKZfZe17ZVZnpfAlTsC">
-    <mxGraphModel dx="1118" dy="2004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1315" dy="2151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
             <mxPoint x="570" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a76i3HFkYoVVf9rxT9JP-38" edge="1" parent="1" source="a76i3HFkYoVVf9rxT9JP-18" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="a76i3HFkYoVVf9rxT9JP-21" value="视频上传到阿里云oss">
+        <mxCell id="a76i3HFkYoVVf9rxT9JP-38" edge="1" parent="1" source="a76i3HFkYoVVf9rxT9JP-18" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="a76i3HFkYoVVf9rxT9JP-21" value="视频上传到阿里云sso">
           <mxGeometry relative="1" width="60" x="-0.128" as="geometry">
             <Array as="points">
               <mxPoint x="989.25" y="890" />
@@ -89,7 +89,7 @@
             <mxPoint x="1050" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a76i3HFkYoVVf9rxT9JP-39" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="阿里云oss" vertex="1">
+        <mxCell id="a76i3HFkYoVVf9rxT9JP-39" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="阿里云sso" vertex="1">
           <mxGeometry height="350" width="100" x="1320" y="680" as="geometry" />
         </mxCell>
         <mxCell id="a76i3HFkYoVVf9rxT9JP-40" edge="1" parent="1" source="a76i3HFkYoVVf9rxT9JP-21" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="a76i3HFkYoVVf9rxT9JP-39" value="视频上传">
