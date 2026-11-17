@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="yRnME_2CFsM_TPP0itIA">
+    <mxGraphModel dx="1165" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-2" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iYdmHfSp6IvfafnNKAlv-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="私募产品预约额度控制(购买)" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-5" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iYdmHfSp6IvfafnNKAlv-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="计算指定批次的预约已使用总额度" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="同产品,同批次,状态为待处理" vertex="1">
+          <mxGeometry height="5" width="100" x="240" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-8" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iYdmHfSp6IvfafnNKAlv-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="正式订单私募产品额度(购买)" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-11" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iYdmHfSp6IvfafnNKAlv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="计算指定交易日期的私募产品使用的交易总额度" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="支付成功,状态不为已撤单和交易失败" vertex="1">
+          <mxGeometry height="35" width="100" x="700" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-31" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="660" />
+              <mxPoint x="720" y="660" />
+            </Array>
+            <mxPoint x="720" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="汇总已使用总额度" vertex="1">
+          <mxGeometry height="60" width="120" x="430" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-18" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iYdmHfSp6IvfafnNKAlv-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="查询私募产品的总额度配置" vertex="1">
+          <mxGeometry height="60" width="120" x="1030" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-29" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="iYdmHfSp6IvfafnNKAlv-30">
+          <mxGeometry relative="1" x="-0.7179" as="geometry">
+            <mxPoint x="940" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="当前业务日期查询配置私募产品额度" vertex="1">
+          <mxGeometry height="60" width="120" x="880" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="日期条件是开放起始日或结束日大于等于传入日期，所以还在开放中的批次和未来批次都会查出来，已经结束的批次被排除。结果按开放起始日升序，返回第一条。当前有开放批次时，它的起始日更早，会排在未来批次前面" vertex="1">
+          <mxGeometry height="70" width="220" x="700" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-19" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iYdmHfSp6IvfafnNKAlv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-24" connectable="0" parent="iYdmHfSp6IvfafnNKAlv-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="true" vertex="1">
+          <mxGeometry relative="1" x="-0.721" y="3" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-25" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iYdmHfSp6IvfafnNKAlv-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-27" connectable="0" parent="iYdmHfSp6IvfafnNKAlv-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="false" vertex="1">
+          <mxGeometry relative="1" x="-0.6928" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;roundedPerimeter=1;" value="冷静期 = 0 or null" vertex="1">
+          <mxGeometry height="90" width="100" x="1040" y="272.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-21" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iYdmHfSp6IvfafnNKAlv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-22" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iYdmHfSp6IvfafnNKAlv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-23" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="iYdmHfSp6IvfafnNKAlv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="私募产品售卖额度" vertex="1">
+          <mxGeometry height="50" width="120" x="610" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-28" edge="1" parent="1" source="iYdmHfSp6IvfafnNKAlv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="iYdmHfSp6IvfafnNKAlv-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1301" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="当前系统时间+冷静期小时, 转换成业务日期" vertex="1">
+          <mxGeometry height="60" width="120" x="1241" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="iYdmHfSp6IvfafnNKAlv-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="判断购买的额度是否满足条件" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="750" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
